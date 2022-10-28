@@ -8,7 +8,9 @@ export default function Login2({ children }) {
         <Authenticator>
             {() => (
                 // <Box>
+                <div>
                     {children}
+                </div>
                 // </Box>
             )}
         </Authenticator>
